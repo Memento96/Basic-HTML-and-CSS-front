@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+/* header */
+.main-header {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border: 2px inset rgba(128, 128, 128, 0.083);
+  justify-content: space-between;
+}
+
+.icon-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon-title img {
+  margin-left: 10px;
+  width: 20px;
+}
+.icon-title h3 {
+  font-family: "Comfortaa", cursive;
+  color: #17203a;
+}
+
+.info-menu {
+  background-color: transparent;
+  height: 55px;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pub {
+  margin-top: 7px;
+  margin-left: 15px;
+  width: fit-content;
+  height: 45px;
+  border-radius: 5px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  transition: all 0.5s linear;
+}
+
+.pub h4 {
+  width: fit-content;
+  background-color: transparent;
+  font-family: "Comfortaa", cursive;
+  color: rgb(118, 116, 116);
+  font-weight: lighter;
+}
+
+.pub img {
+  margin-top: 3px;
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+}
+
+.on h4 {
+  color: #fff;
+}
+
+.pub:hover,
+.on {
+  background-color: #37a171;
+  cursor: pointer;
+}
+
+.pub:hover h4 {
+  color: white;
+}
+
+.options {
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.options img {
+  margin-top: 7.5px;
+  width: 35px;
+  height: 35px;
+  background-color: gainsboro;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.options img:hover {
+  background-color: rgba(128, 128, 128, 0.784);
+  cursor: pointer;
+}
+
+/* first section */
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 7em 0px;
+}
+
+.induction {
+  font-family: "Comfortaa", cursive;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.induction h2 {
+  color: #37a171;
+  width: 50%;
+}
+.induction h1 {
+  font-size: 10vh;
+  font-weight: bolder;
+  color: #183153;
+}
+
+.induction p {
+  letter-spacing: 0.5vh;
+  font-size: 3.5vh;
+  line-height: 6vh;
+  color: #878b92;
+  margin-top: -25px;
+}
+
+.induction button {
+  background-color: #183153;
+  color: #fff;
+  border: none;
+  width: 9em;
+  border-radius: 8px;
+  height: 6vh;
+  margin-top: 2vh;
+}
+
+.image-spaghetti {
+  margin-top: 2em;
+  width: 60em;
+}
+
+/* second section */
+hr {
+  width: 90%;
+  background-color: #183153;
+  height: 2px;
+  margin: 3em auto;
+}
+
+.about-us {
+  margin: 50px 7em 0px;
+  font-family: "Comfortaa", cursive;
+}
+
+.about-us_title {
+  margin: 0px auto;
+  width: 40%;
+  text-align: center;
+  padding-top: 8vh;
+}
+
+.about-us_info {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us_info-img {
+  margin-top: 2em;
+  width: 110em;
+}
+
+.about-us_description h1 {
+  font-weight: bolder;
+  color: #183153;
+  letter-spacing: 0.4vh;
+}
+
+.about-us_description p{
+    line-height: 5vh;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description-content {
+    border: 1px solid rgb(202, 202, 202);
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    background-color: rgb(230, 228, 228);
+    border-radius: 6px;
+}
+
+.learn {
+    background-color: #183153;
+  color: #fff;
+  border: none;
+  width: 9em;
+  border-radius: 8px;
+  height: 6vh;
+  margin-top: 2vh;
+}
+
+.foods {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.otra {
+  width: 100%;
+  margin-left: 0px ;
+  font-family: "Comfortaa", cursive;
+  background-color: #ebebeb;
+}
+
+
+.foods-container {
+    border: 1px solid #111;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.dishes{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dishes h3{
+    font-family: "Comfortaa", cursive;
+    color: #183153;
+    margin: 10px;
+}
+
+.cali i{
+  color: #37a171;
+}
+
+.ft{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ft h2{
+  font-family: 'Nunito', sans-serif;
+  color: #37a171;
+  margin: 5px;
+}
+
+.ft h5{
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: fit-content;
+  font-family: "Comfortaa", cursive;
+  background-color: #17203a;
+  color: white;
+  margin: 10px;
+  padding: 10px 0px;
+  border-radius: 5px;
+}
+
+.dishes img {
+    width: 80%;
+}
+
+/* footer */
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Comfortaa", cursive;
+  border-bottom: 1px solid rgba(156, 156, 156, 0.84);
+}
+
+.stc h3{
+  color: #878b92;
+  padding: 5px;
+}
+
+.copy{
+  display: flex;
+  justify-content: center;
+  font-family: "Comfortaa", cursive;
+  padding: 10px;
+}
